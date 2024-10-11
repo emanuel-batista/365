@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    font-family: Arial;
+    filter: blur(1px);
+}
+
+#brat{
+    border: none;
+    background-color: transparent;
+    transform: scaleX(1.5);
+    color: #8ACE00;
+    cursor: pointer;
+    
+}
+
+.threesixfive{
+    transform: scaleX(1.5);
+    font-weight: 100;
+    display: none;
+
+}
