@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'arial'; /* Name your font family */
-    src: url('ARIAL.ttf'); /* Locate the .ttf file within your directory*/
+    src: url('ARIAL.TTF'); /* Locate the .ttf file within your directory*/
   }
 
 body{
