@@ -31,14 +31,12 @@ function checkAudioPosition() {
     var brat1 = document.getElementById("365");
     
     setInterval(function() {
-        var currentTime = audio.currentTime * 1000; // Pega o tempo atual em milissegundos
-
-        // Verifica se está entre 6:555 (6555ms) e 6:958 (6958ms)
+        var currentTime = audio.currentTime * 1000;
         if ((currentTime >= 6555 && currentTime <= 6958) || currentTime >= 13551) {
-            brat1.textContent = "partygirl"; // Muda o texto para "partygirl"
+            brat1.textContent = "partygirl"; 
         } else {
-            brat1.textContent = "365"; // Volta o texto para "365"
+            brat1.textContent = "365"; 
         }
 
-    }, 100); // Verifica a cada 100 milissegundos
+    }, 100); 
 }

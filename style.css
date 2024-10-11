@@ -18,22 +18,20 @@ body{
     align-content: center;
     justify-items: center;
     font-family: 'arial';
-    filter: blur(1px);
-    overflow-x: none;
-    overflow-y: none;
+    filter: blur(1.5px);
 }
 
 #brat{
     border: none;
     background-color: transparent;
-    transform: scaleX(1.5);
+    transform: scaleX(2);
     color: #8ACE00;
     cursor: pointer;
     
 }
 
 .threesixfive{
-    transform: scaleX(1.5);
+    transform: scaleX(2);
     font-weight: 100;
     display: none;
 
