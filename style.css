@@ -19,6 +19,8 @@ body{
     justify-items: center;
     font-family: 'arial';
     filter: blur(1px);
+    overflow-x: none;
+    overflow-y: none;
 }
 
 #brat{
